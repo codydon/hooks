@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 function HookCounter() {
 
-    //useState Hook
+//useState Hook
 const [count, setCount] = useState(0) //array destructuring
 
 
