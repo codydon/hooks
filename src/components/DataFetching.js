@@ -25,7 +25,7 @@ function DataFetching() {
 
     return (
         <div>
-            <h3>DATA FETCHING</h3>
+            <h4>DATA FETCHING(useEffect with dependency)</h4>
             {/* <form onSubmit={postFetcher} > */}
                 <input type="text" value={id} onChange={e => setID(e.target.value)} />
                 <button type='button' onClick={postFetcher} >Fetch Post</button>

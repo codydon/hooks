@@ -21,7 +21,9 @@ function HookMouse() {
         }
     }, [])
   return (
-    <div>Hook X- {x} Hook Y- {y}</div>
+    <div>
+      <h4>useEffect cleanup</h4>
+      Hook X- {x} Hook Y- {y}</div>
   )
 }
 

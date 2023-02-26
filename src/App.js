@@ -8,7 +8,7 @@ import HookCounter4 from './components/HookCounter4';
 import IntervalHookCounter from './components/IntervalHookCounter';
 // import HookMouse from './components/HookMouse';
 import MouseContainer from './components/MouseContainer';
-import ComponentF from './components/ComponentF'
+import ComponentC from './components/ComponentC'
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -33,7 +33,7 @@ function App() {
       <hr />
       <UserContext.Provider value={'Donald'}>
         <ChannelContext.Provider value={'codyDon'}>
-        <ComponentF />
+        <ComponentC />
         </ChannelContext.Provider>
       </UserContext.Provider>
       <hr />

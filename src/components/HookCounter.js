@@ -12,6 +12,7 @@ useEffect(() => {
 
   return (
     <div>
+      <h4>useState int</h4>
       <input type="text" value={name} onChange={ e => setName(e.target.value)} />
         <button onClick={ () => setCount(count + 1 )} >Count {count}</button>
     </div>

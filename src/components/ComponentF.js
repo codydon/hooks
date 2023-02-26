@@ -4,6 +4,7 @@ import { UserContext, ChannelContext } from '../App'
 function ComponentF() {
     return (
         <div>
+            {/* depreciated syntax!!! */}
             <UserContext.Consumer>
                 {
                     user => {
