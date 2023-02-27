@@ -22,7 +22,7 @@ function DataFetching1() {
 
     return (
         <div>
-            <h4>Fetching data with useReducer</h4>
+            <h4>Fetching data</h4>
             {loading ? 'Loading ...' : post.title}
             {error ? error : null}
         </div>

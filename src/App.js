@@ -17,6 +17,7 @@ import ComponentB from './components/ComponentB';
 import ComponentC from './components/ComponentC';
 import ComponentD from './components/ComponentD';
 import DataFetching1 from './components/DataFetching1';
+import DataFetching2 from './components/DataFetching2';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -77,6 +78,8 @@ function App() {
       </CountContext.Provider>
       <hr />
       <DataFetching1 />
+      <hr />
+      <DataFetching2 />
       <hr />
     </div>
   );
