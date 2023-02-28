@@ -42,6 +42,7 @@ function DataFetching2() {
     }, [])
     return (
         <div>
+            {/*  */}
             <h4>Fetching data with useReducer</h4>
             {state.loading ? 'Loading ...' : state.post.title}
             {state.error ? state.error : null}
