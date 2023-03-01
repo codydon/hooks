@@ -6,6 +6,7 @@ function DataFetching1() {
     const [error, setError] = useState('')
     const [post, setPost] = useState({})
 
+    //fetching data function
     useEffect(() => {
         axios.get('https://jsonplaceholder.typicode.com/posts/1')
             .then(response => {
@@ -21,6 +22,7 @@ function DataFetching1() {
     }, [])
 
     return (
+        
         <div>
             <h4>Fetching data</h4>
             {loading ? 'Loading ...' : post.title}
