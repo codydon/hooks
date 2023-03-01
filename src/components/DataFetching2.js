@@ -30,7 +30,7 @@ const reducer = (state, action) => {
 
 function DataFetching2() {
     const [state, dispatch] = useReducer(reducer, intialState)
-
+////
     useEffect(() => {
         axios.get('https://jsonplaceholder.typicode.com/posts/1')
             .then(response => {
