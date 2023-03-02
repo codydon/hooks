@@ -1,6 +1,7 @@
 import React, { useReducer } from 'react'
 
-//using useREducer
+//using useReducer
+
 // const intialState = 0
 const intialState = {
     firstCounter: 0,

@@ -1,3 +1,4 @@
+//data fetching using usereducer and useEffect
 import React, { useReducer, useEffect } from 'react'
 import axios from 'axios'
 
