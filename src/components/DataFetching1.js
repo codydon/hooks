@@ -6,7 +6,7 @@ function DataFetching1() {
     const [error, setError] = useState('')
     const [post, setPost] = useState({})
 
-    //fetching data function
+    //fetching data
     useEffect(() => {
         axios.get('https://jsonplaceholder.typicode.com/posts/1')
             .then(response => {
