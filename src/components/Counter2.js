@@ -1,10 +1,12 @@
 import React, { useReducer } from 'react'
 
+//using useREducer
 // const intialState = 0
 const intialState = {
     firstCounter: 0,
     secondCounter: 10
 }
+
 
 const reducer = (state, action) => {
     switch (action.type) {
