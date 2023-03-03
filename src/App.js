@@ -18,6 +18,7 @@ import ComponentC from './components/ComponentC';
 import ComponentD from './components/ComponentD';
 import DataFetching1 from './components/DataFetching1';
 import DataFetching2 from './components/DataFetching2';
+import ParentComponent from './components/ParentComponent';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -80,6 +81,8 @@ function App() {
       <DataFetching1 />
       <hr />
       <DataFetching2 />
+      <hr />
+      <ParentComponent />
       <hr />
     </div>
   );
