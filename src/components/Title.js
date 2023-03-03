@@ -8,3 +8,4 @@ function Title() {
 }
 
 export default React.memo(Title)
+//useCallback is used for optimization purposes
